@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabira Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <span>Sabira</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Section -->
+  
+
+  <section class="hero" id="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-text">
+    <h1>
+      Hi, I'm <span>Sabira</span>
+    </h1>
+    <p>Front-End Developer | UL/UX Designer | Creative Thinker</p>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm <span>Sabira Hussaini</span>, a passionate Front-End Developer who loves
+          creating modern, responsive, and user-friendly web interfaces.
+          I'm currently learning <strong>React</strong> and improving my JavaScript and CSS skills.
+        </p>
+        <button class="btn">
+          <a href="My-CV.pdf" target="_blank">Download CV</a>
+        </button>
+      </div>
+
+      <div class="about-image">
+        <img src="images/S3.png" alt="Sabira portrait">
+      </div>
+
+    </div>
+  </section>
+ <section class="skills" id="skills">
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h3>HTML & CSS</h3>
+        <p>
+          Building modern, responsive layouts using clean HTML5 and CSS3.  
+          Experienced with Flexbox, Grid, and responsive design techniques.
+        </p>
+      </div>
+      <div class="timeline-dot">💻</div>
+      <span class="timeline-date">Beginner → Advance</span>
+    </div>
+
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <h3>JavaScript (ES6+)</h3>
+        <p>
+          Understanding core concepts like DOM manipulation, events, and async programming.  
+          Currently learning advanced topics and frameworks.
+        </p>
+      </div>
+      <div class="timeline-dot">⚡</div>
+      <span class="timeline-date">Learning → Improving</span>
+    </div>
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h3>React (in progress)</h3>
+        <p>
+          Practicing components, props, and hooks to create dynamic interfaces.  
+          Gaining experience by building small React projects.
+        </p>
+      </div>
+      <div class="timeline-dot">⚛️</div>
+      <span class="timeline-date">Started: 2025</span>
+    </div>
+
+  </div>
+</section>
+<section class="projects" id="projects">
+  <div class="container">
+    <h3 class="section-subtitle">My Work</h3>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-description">
+      Following projects showcase my skills and experience through real-world
+          examples of my work. Each project is briefly described with links to
+          code repositories and live demos. It reflects my ability to solve
+          complex problems, work with different technologies, and manage projects
+          effectively.
+    </p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://event-site-sabirahussaini.netlify.app/">
+            <img src="images/eventImg.jpeg" class="main-img">
+            <img src="images/eventImg2.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>Aurora Festival</h3>
+        <p>A high-energy music festival featuring top DJs, 
+          stunning visuals, and unforgettable live performances</p>
+        <a class="here" href="https://github.com/Sabira-Hussaini/Event-Site-Sabirahussaini">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#CSS</span><span>#event</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://omosa-project-final.netlify.app/">
+            <img src="images/agencyImg.jpeg" class="main-img">
+            <img src="images/agencyImg2.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>OMOSA</h3>
+        <p>OMOSA — A creative studio specializing in branding, 
+          web design, and digital solutions for modern businesses.</p>
+        <a href="https://github.com/Sabira-Hussaini/Omosa-project-final" class="here">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#JavaScript</span><span>#agency</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://bodyly-project.netlify.app/">
+            <img src="images/FoodImg.jpeg" class="main-img">
+            <img src="images/foodImg2.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>Boldly Foods</h3>
+        <p>A modern vegan seafood website showcasing plant-based
+           products, tasty recipes, and a bold, clean design.</p>
+        <a class="here" href="https://github.com/Sabira-Hussaini/bodly-project">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#CSS</span><span>#food</span>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <button class="view-more-btn" id="viewMoreBtn">View More Projects</button>
+    <div class="hidden more-projects projects-grid">
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://agency-site-sabirahussaini.netlify.app/">
+            <img src="./images/ag.jpeg" class="main-img">
+            <img src="./images/agp.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>Point d’Orgue Website</h3>
+        <p>A luxury agency website with a bold hero section, 
+          scrolling animations, project galleries,
+           video content, talent profiles, and a clean responsive design.</p>
+        <a class="here" href="https://github.com/Sabira-Hussaini/Fourth-project">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#JavaScript</span><span>#agency</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://technological-tools.netlify.app/">
+            <img src="./images/e.jpeg" class="main-img">
+            <img src="./images/el.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>ElectroShop</h3>
+        <p>Your one-stop online store for the latest
+           electronics, gadgets, and accessories.
+           Explore top-quality products, special offers, and fast, secure delivery</p>
+        <a href="https://github.com/Sabira-Hussaini/six-project" class="here">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#CSS</span><span>#JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://beauty-newproject.netlify.app/">
+            <img src="./images/g.jpeg" class="main-img">
+            <img src="./images/gp.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>GlowLab Website</h3>
+        <p>GlowLab – A modern, responsive beauty website 
+          featuring clean design, smooth animations, 
+          product sections, and mobile-friendly navigation</p>
+        <a class="here" href="https://github.com/Sabira-Hussaini/beauty-site">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#BootStrap</span><span>#JavaScript</span>
+        </div>
+      </div>
+      
+  
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://burger-site25.netlify.app/">
+            <img src="./images/sb.jpeg" class="main-img">
+            <img src="./images/sd.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>SilkTouch</h3>
+        <p>Natural facial masks crafted with
+           100% botanical ingredients for glowing, hydrated,
+           and healthy skin.<br> Gentle, safe, and suitable for all skin types.</p>
+        <a class="here" href="https://github.com/Sabira-Hussaini/My-fifth-project">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#BootStrap</span><span>#JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="img-box">
+          <a href="https://burger-site25.netlify.app/">
+            <img src="./images/bug.jpeg" class="main-img">
+            <img src="./images/burger.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>King Burger site</h3>
+        <p>A modern, interactive burger website showcasing delicious
+           burgers, menu highlights, and easy online ordering.</p>
+        <a href="https://github.com/Sabira-Hussaini/My-second-project" class="here">#GitHub</a>
+
+        <div class="tags">
+          <span>#HTML</span><span>#CSS</span><span>#JavaScript</span>
+        </div>
+      </div>
+
+   <div class="project-card">
+        <div class="img-box">
+          <a href="https://sabiras-dapper-site-bc0e25.design.webflow.com/">
+            <img src="./images/yoga.jpeg" class="main-img">
+            <img src="./images/exp-yoga.jpeg" class="hover-img">
+          </a>
+        </div>
+        <h3>Sabira Yoga Stadio</h3>
+        <p>A modern yoga studio website built in Webflow,
+           featuring class 
+          schedules, instructor info, and a calming, wellness-focused design.</p>
+       <a href="https://sabiras-dapper-site-bc0e25.design.webflow.com/" class="here">#WebFlow</a>
+
+        <div class="tags">
+          <span>#WebFlow</span><span>#Design</span><span>#Yoga</span>
+        </div>
+      </div>
+            
+
+   
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= Contact Section ================= -->
+<section id="contact" class="contact-section">
+ 
+
+    <div class="contact-left">
+      <p class="contact-subtitle">GET IN TOUCH</p>
+      <h1 class="contact-title">Contact.</h1>
+
+      <form class="contact-form"
+      action="https://formspree.io/f/xvgndrdy"
+      method="POST">
+
+  <label for="name">Your Name</label>
+  <input type="text" id="name" name="name" placeholder="What's your name?" required />
+
+  <label for="email">Your Email</label>
+  <input type="email" id="email" name="email" placeholder="What's your email?" required />
+
+  <label for="message">Your Message</label>
+  <textarea id="message" name="message" placeholder="What do you want to say?" rows="6" required></textarea>
+
+  <button type="submit" class="contact-btn">Send</button>
+  <div id="form-message"></div>
+</form>
+    </div>
+
+
+</section>
+
+<!-- ================= Footer ================= -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-logo">
+      <img src="images/logo.png" alt="Logo" />
+      <p>Sabira Portfolio</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://wa.me/+93774573002" target="_blank" class="social-item" ><i class="fab fa-whatsapp"></i>WhatsApp</a>
+      <a href="https://github.com/Sabira-Hussaini" target="_blank" class="social-item"> <i class="fab fa-github"></i>GitHub</a>
+      <a href="https://linkedin.com/in/Sabira-Hussaini" target="_blank" class="social-item"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    </div>
+
+
+    <div class="footer-social">
+  <a href="mailto:sabirahussaini09@gmail.com" target="_blank" class="social-item"><i class="fas fa-envelope"></i>Email</a>
+  <a href="https://www.facebook.com/SabiraHussaini" target="_blank" class="social-item"><i class="fab fa-facebook"></i>Facebook</a>
+  <a href="https://www.instagram.com/sabiradev" target="_blank" class="social-item"><i class="fab fa-instagram"></i>Instagram</a>
+</div>
+
+  </div>
+
+  <p class="footer-copy">© 2025 Sabira. All rights reserved.</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
