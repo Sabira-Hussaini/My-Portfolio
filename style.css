@@ -806,4 +806,57 @@ overflow: hidden;}
 .projects-grid {
   gap: 1.6rem; 
 }
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .img-box {
+    height: 240px;
+  }
+}
+
+/* Mobile (1 column) */
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .section-description {
+    text-align: center;
+    margin: 0 auto 40px auto;
+  }
+
+  .img-box {
+    height: 220px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
+
+  .img-box {
+    height: 200px;
+  }
+}
 
