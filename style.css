@@ -439,7 +439,7 @@ overflow: hidden;}
 }
 
 
-/* ===================== Contact Section ===================== */
+
 .contact-section {
   width: 55%;
   min-height: 100vh;
@@ -530,7 +530,6 @@ overflow: hidden;}
 }
 
 
-/* ===================== Footer ===================== */
 .footer {
   background: #0f0f1a;
   color: #ddd;
@@ -591,7 +590,7 @@ overflow: hidden;}
   color: #777;
 }
 
-/* Social items */
+
 .footer-social {
   display: flex;
   flex-direction: column;
@@ -611,17 +610,8 @@ overflow: hidden;}
   font-size: 20px;
 }
 
-/* ===================== Responsive ===================== */
-@media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .contact-left,
-  .contact-right {
-    width: 100%;
-  }
+@media (max-width: 768px) {
 
   .footer-container {
     flex-direction: column;
@@ -640,10 +630,54 @@ overflow: hidden;}
 }
 
 
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
 
-/* ===================== FIX RESPONSIVE ===================== */
+  .contact-section {
+    width: 100%;
+    min-height: auto;
+    padding: 40px 15px;
+  }
 
-/* Tablet */
+  .contact-left {
+    padding: 25px 20px;
+    border-radius: 16px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .contact-subtitle {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
+  .contact-form label {
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .contact-form textarea {
+    min-height: 120px;
+  }
+
+  .contact-btn {
+    font-size: 15px;
+    padding: 12px;
+  }
+}
+
+
+
+
+
 @media (max-width: 992px) {
   .navbar {
     padding: 20px 40px;
@@ -664,10 +698,10 @@ overflow: hidden;}
 }
 
 
-/* MOBILE */
+
 @media (max-width: 768px) {
 
-  /* ---- Navbar ---- */
+
   .navbar {
     flex-direction: column;
     gap: 20px;
@@ -679,7 +713,6 @@ overflow: hidden;}
     justify-content: center;
   }
 
-  /* ---- Hero ---- */
   .hero {
     height: 70vh;
     justify-content: center;
@@ -700,7 +733,7 @@ overflow: hidden;}
     font-size: 1rem;
   }
 
-  /* ---- About ---- */
+  
   .about {
     padding: 50px 20px;
     text-align: center;
@@ -732,7 +765,7 @@ overflow: hidden;}
 }
 
 
-/* SMALL MOBILE */
+
 @media (max-width: 480px) {
 
   .nav-links a {
@@ -748,20 +781,20 @@ overflow: hidden;}
 
 @media (max-width: 768px) {
 
-  /* About section fixes */
+
   .about {
     padding: 50px 20px;
   }
 
   .about-container {
-    flex-direction: column;   /* makes image first, text next */
+    flex-direction: column;  
     align-items: center;
     text-align: center;
     gap: 30px;
   }
 
   .about-image {
-    order: 1;                 /* image on top */
+    order: 1;                 
     width: 50vw;
     height: 50vw;
     margin: 0 auto;
@@ -773,7 +806,7 @@ overflow: hidden;}
   }
 
   .about-text {
-    order: 2;                 /* text under image */
+    order: 2;               
     max-width: 100%;
   }
 }
@@ -783,7 +816,7 @@ overflow: hidden;}
   display: none;
 }
 
-/* دکمه ساده و مرتب */
+
 .view-more-btn {
   margin: 3rem auto 40px;
   display: block;
@@ -820,7 +853,6 @@ overflow: hidden;}
   }
 }
 
-/* Mobile (1 column) */
 @media (max-width: 768px) {
   .projects {
     padding: 60px 20px;
@@ -845,7 +877,7 @@ overflow: hidden;}
   }
 }
 
-/* Small phones */
+
 @media (max-width: 480px) {
   .section-title {
     font-size: 28px;
