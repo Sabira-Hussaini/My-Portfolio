@@ -27,7 +27,7 @@ body {
   border-radius: 50%; 
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ body {
   color: #a566ff;
 }
 
-/* Hero */
+
 
 .hero {
   position: relative;
@@ -65,7 +65,7 @@ body {
   
 }
 
-/* لایه تیره برای واضح شدن متن */
+
 .overlay {
   position: absolute;
   top: 0;
@@ -75,7 +75,7 @@ body {
   background: rgba(0, 0, 0, 0.7); 
 }
 
-/* متن روی تصویر */
+
 .hero-text {
   position: relative;
   z-index: 2;
@@ -86,7 +86,7 @@ body {
 .hero-text h1 {
   font-size: 3.4rem;
   color: #fff;
-  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6); /* برای وضوح بیشتر */
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6); 
 }
 
 .hero-text span {
@@ -101,7 +101,7 @@ body {
 
 
 
-/* About */
+
 .about {
   background-color: #111129;
   color: #fff;
@@ -187,7 +187,7 @@ overflow: hidden;}
 }
 
 
-/* ===================== Skills Section ===================== */
+
 .skills {
   background-color: #0b0b1a;
   padding: 100px 100px;
@@ -201,14 +201,14 @@ overflow: hidden;}
   margin-bottom: 80px;
 }
 
-/* Timeline container */
+
 .timeline {
   position: relative;
   margin: 0 auto;
   max-width: 900px;
 }
 
-/* Vertical line in center */
+
 .timeline::before {
   content: "";
   position: absolute;
@@ -220,15 +220,13 @@ overflow: hidden;}
   transform: translateX(-50%);
 }
 
-/* Timeline item */
+
 .timeline-item {
   position: relative;
   width: 50%;
   padding: 20px 40px;
   box-sizing: border-box;
 }
-
-/* Dot */
 .timeline-dot {
   position: absolute;
   top: 30px;
@@ -249,7 +247,7 @@ overflow: hidden;}
   left: -16px;
 }
 
-/* Text content */
+
 .timeline-content {
   background-color: #1c1c2e;
   padding: 25px;
@@ -317,7 +315,7 @@ overflow: hidden;}
   }
 }
 
-/* ===================== Projects Section ===================== */
+
 .projects {
   background-color: #0a0b1a;
   color: #fff;
@@ -630,7 +628,7 @@ overflow: hidden;}
 }
 
 
-/* 📱 Mobile Responsive */
+
 @media (max-width: 768px) {
 
   .contact-section {
@@ -891,4 +889,69 @@ overflow: hidden;}
     height: 200px;
   }
 }
+
+
+@media (max-width: 768px) {
+
+  .skills {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .timeline {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+
+  /* Move line to the left */
+  .timeline::before {
+    left: 15px;
+    width: 3px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding: 0 0 40px 45px;
+    text-align: left;
+    left: 0 !important;
+  }
+
+
+  .timeline-dot {
+    left: 0 !important;
+    right: auto;
+    top: 25px;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+  }
+
+  .timeline-content {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .timeline-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+ 
+  .timeline-date {
+    position: static;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+}
+
 
