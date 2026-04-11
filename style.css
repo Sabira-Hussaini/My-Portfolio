@@ -386,9 +386,14 @@ overflow: hidden;}
   font-size: 14px;
   color: #b5b5b5;
   line-height: 1.6;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
-
+ .project-card .list{
+ color: #b5b5b5;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  list-style-type: none;
+ }
 .tags span {
   color: #b0b0ff;
   font-size: 13px;
