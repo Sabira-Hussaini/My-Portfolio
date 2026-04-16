@@ -79,9 +79,9 @@ body {
 .hero-text {
   position: relative;
   z-index: 2;
-  margin-left: 200px;
   text-align: center;
   margin-top: 150px;
+ margin: 0 auto;
 }
 
 .hero-text h1 {
@@ -961,11 +961,63 @@ overflow: hidden;}
 }
 
 
+/* Default (Desktop) stays same */
 .hero-buttons {
   margin-top: 20px;
   display: flex;
-margin-left: 340px;
+  justify-content: center;
   gap: 15px;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* ✅ Tablet */
+@media (max-width: 992px) {
+  .hero-text {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+}
+
+/* ✅ Mobile */
+@media (max-width: 600px) {
+  .hero-text {
+    margin-top: 80px;
+    padding: 0 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
 }
 
 .btn {
