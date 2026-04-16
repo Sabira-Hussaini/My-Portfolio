@@ -79,12 +79,13 @@ body {
 .hero-text {
   position: relative;
   z-index: 2;
-  margin-left: 380px;
-  margin-top: 97px;
+  margin-left: 200px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .hero-text h1 {
-  font-size: 3.4rem;
+  font-size: 2.6rem;
   color: #fff;
   text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6); 
 }
@@ -960,3 +961,48 @@ overflow: hidden;}
 }
 
 
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+margin-left: 340px;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+}
+
+.case-study {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.case-study h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #6c63ff;
+}
+
+.case-study p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.case-study ul {
+  padding-left: 18px;
+}
