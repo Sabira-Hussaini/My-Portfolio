@@ -81,7 +81,8 @@ body {
   z-index: 2;
   text-align: center;
   margin-top: 150px;
- margin: 0 auto;
+ margin: 0 auto
+ ;
 }
 
 .hero-text h1 {
